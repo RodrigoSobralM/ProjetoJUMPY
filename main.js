@@ -9,12 +9,14 @@ function validate() {
             document.querySelector('#input3').value === "" ||
             document.querySelector('#input4').value === "" ||
             document.querySelector('#input5').value === "") {
-                camp.innerHTML = "Campos obrigatórios não registrados.";
-                camp.style.color = "red";
-                camp.style.textAlingh = "left"
+
+            camp.innerHTML = "Campos obrigatórios não registrados.";
+            camp.style.color = "red";
+            camp.style.textAlingh = "left"
+            
         } else {
             camp.innerHTML = "Sucesso!";
             camp.style.color = "green";
         }
     });
-}
+} 
