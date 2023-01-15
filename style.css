@@ -1,6 +1,7 @@
 body {
     background: #2D2D2D;
 }
+
 header {
     margin-top: 42px;
     margin-left: 55px;
@@ -29,11 +30,17 @@ header {
     line-height: 23px;
     color: #FFFFFF;
 }
+
+.form-group label {
+    margin-bottom: 8px;
+}
+
 .form-group {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
 }
+
 .form-group input {
     width: 524px;
     height: 52px;
@@ -42,8 +49,9 @@ header {
     border-radius: 10px;
     padding: 0 0 0 13px;
 }
+
 button {
-    width: 540px;
+    width: 537px;
     height: 48px;
     background: #0C70F2;
     border-radius: 6px;
@@ -56,6 +64,7 @@ button {
     color: #FFFFFF;
     cursor: pointer;
 }
+
 button:hover {
     background: #084698;
 }
@@ -72,14 +81,25 @@ input[type=number]::-webkit-inner-spin-button {
     -webkit-appearance: none;
     
 }
+
 input[type=number] { 
-   -moz-appearance: textfield;
-   appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
 
 }
 
 .camp-style {
     margin-top: 9px;
+}
+
+.campRequired {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #E73550;
+    text-align: right;
 }
 
 
