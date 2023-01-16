@@ -20,15 +20,9 @@ function validate() {
             campObg3.innerHTML = "*Campo Obrigatório*"
             campObg4.innerHTML = "*Campo Obrigatório*"
             campObg5.innerHTML = "*Campo Obrigatório*"
-            if (document.querySelector('#input1').value === "" ||
-                document.querySelector('#input2').value === "" ||
-                document.querySelector('#input3').value === "" ||
-                document.querySelector('#input4').value === "" ||
-                document.querySelector('#input5').value === "") {
-
-                camp.innerHTML = "Campos obrigatórios não registrados.";
-                camp.style.color = "red";
-            }
+            camp.innerHTML = "Campos obrigatórios não registrados.";
+            camp.style.color = "red";
+            
         } else {
             campObg1.innerHTML = ''
             campObg2.innerHTML = ''
