@@ -19,7 +19,7 @@ function validate() {
                 campObg4.innerHTML = "*Campo Obrigatório*"
                 campObg5.innerHTML = "*Campo Obrigatório*"
                 camp.innerHTML = "Campos obrigatórios não registrados.";
-                camp.style.color = "red";
+                
 
             } else {
                 campObg1.innerHTML = ''
@@ -28,7 +28,7 @@ function validate() {
                 campObg4.innerHTML = ''
                 campObg5.innerHTML = ''
                 camp.innerHTML = "Sucesso!";
-                camp.style.color = "green";
+                camp.style.color = "#0F7B0F";
             }
         }
     });
